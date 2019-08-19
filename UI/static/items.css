@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/imgs/items.jpg);
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+.items
+{
+    width: 350px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    background-color:   rgb(229, 242, 248);
+    /* background-color:  transparent; */
+}
+
+.item-links
+{
+    text-decoration: none;
+    color: black
+}
+
+.add-item
+{
+    color: black;
+}
+
+.name
+{
+    color: black;
+}
+
+#item
+{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+button
+{
+    margin-top: 20px;
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+}
