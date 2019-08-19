@@ -1,17 +1,23 @@
 body {
-    background-image: url(imgs/bucket.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(imgs/bucket.jpg);
     background-size: cover;
     /* background-position: center; */
 }
 
+.item-links
+{
+    text-decoration: none;
+    color: black;
+}
+
 .bucket {
-    width: 350px;
+    width: 250px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     padding: 20px;
     margin: 8% auto 0;
     text-align: center;
-    background-color:   rgb(232, 251, 253);
+    background-color:   rgb(214, 237, 240);
 }
 
 #add 
@@ -22,7 +28,8 @@ body {
 input
 {
     color: Black;
-    width: 300px;
+    width: 200px;
+    border-radius: 5px;
 }
 
 h1 {
@@ -33,22 +40,28 @@ h1 {
     margin-bottom: 12px
 }
 
+.list{
+    margin: 0 auto;
+}
+
 ul {
-    background-color: black;
-    color: white;
+    /* background-colo/r: black; */
+    color: black;
     padding: 20px 10px;
     margin: 12px 0 0 10px;
     line-height: 30px;
     border-radius: 10px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
-ui li:nth-child(1)
+ul li:nth-child(1)
 {
-    color: white;
+    color: black;
 }
 
 i {
-    color: white;
+    color: black;
+    margin-left: 15px;
 }
